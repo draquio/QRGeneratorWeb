@@ -1,0 +1,19 @@
+@import "~/src/sass/Index.scss";
+
+.Footer_content{
+    max-width: $max-width;
+    margin: auto;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    a{
+        color: #616161;
+        font-weight: bold;
+        transition: 0.4s ease all;
+        &:hover{
+            color: #616161;
+            opacity: 0.8;
+        }
+    }
+}

@@ -1,0 +1,6 @@
+export * from "./Urlqr"
+export * from "./Textqr"
+export * from "./Callqr"
+export * from "./Emailqr"
+export * from "./Whatsappqr"
+export * from "./Wifiqr"

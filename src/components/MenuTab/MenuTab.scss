@@ -1,0 +1,14 @@
+@import "~/src/sass/Index.scss";
+.content_qr > div {
+    width: 90%;
+
+    .ui.secondary.menu{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:$responsive) {
+    .content_qr > div{
+        width: 100%;
+    }
+  }

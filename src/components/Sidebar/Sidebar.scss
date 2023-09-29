@@ -1,0 +1,35 @@
+@import "~/src/sass/Index.scss";
+.Sidebar_main{
+    min-width: 300px;
+    min-height: 50vh;
+    box-sizing: border-box;
+    padding: 10px;
+    border-left: 2px solid rgb(218, 218, 218);
+    text-align: center;
+    img,svg{
+        margin: 15px auto 25px auto;
+        transition: 1s ease all;
+    }
+    .qrimg{
+        opacity: 0.5;
+    }
+}
+
+@media screen and (max-width:$responsive) {
+    .Sidebar_main{
+        border:none;
+        min-height: 0;
+        padding-bottom: 20px;
+    }
+}
+@media screen and (max-width:$small_responsive) {
+    .Sidebar_main{
+        width: 100%;
+        border:none;
+        min-width: 0;
+        img,svg{
+            width: 100% !important;
+            min-width: 0;
+        }
+    }
+}

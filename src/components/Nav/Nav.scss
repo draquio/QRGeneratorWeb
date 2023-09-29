@@ -1,0 +1,19 @@
+@import "~/src/sass/Index.scss";
+
+.nav_bar {
+  max-width: $max-width;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 20px 15px;
+  .logo > img{
+    width: 100px;
+    height: auto;
+    vertical-align: middle;
+  }
+}
+
+@media screen and (max-width: $small_responsive) {
+  .nav_bar .logo{
+    text-align: center;
+  }
+}
